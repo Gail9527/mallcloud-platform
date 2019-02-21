@@ -1,0 +1,34 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: mallcloud-admin
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+      profile: ${spring.profiles.active}
+      label: master
+      discovery:
+        service-id: mallcloud-config
+        enabled: true
+zuul:
+  sensitive-headers: Cookie,Set-Cookie,Authorization,Access-Control-Allow-Origin,Access-Control-Allow-Methods,Access-Control-Allow-Headers,Access-Control-Allow-Credentials
+
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka
+
+---
+spring:
+  profiles: test
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://mallcloud-registry:9000/eureka

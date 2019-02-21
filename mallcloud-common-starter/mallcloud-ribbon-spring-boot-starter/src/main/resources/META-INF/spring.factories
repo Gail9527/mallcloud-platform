@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.mallcloud.common.ribbon.MallcloudRibbonAutoConfigure,\
+cn.mallcloud.common.ribbon.MallcloudFeignAutoConfigure

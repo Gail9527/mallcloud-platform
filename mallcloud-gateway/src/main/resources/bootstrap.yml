@@ -1,0 +1,36 @@
+server:
+  port: 10000
+
+logging:
+  level:
+    org.springframework.security.oauth2: debug
+
+spring:
+  application:
+    name: mallcloud-gateway
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+      profile: ${spring.profiles.active}
+      label: master
+      discovery:
+        service-id: mallcloud-config
+        enabled: true
+
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka
+
+---
+spring:
+  profiles: test
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://mallcloud-registry:9000/eureka
