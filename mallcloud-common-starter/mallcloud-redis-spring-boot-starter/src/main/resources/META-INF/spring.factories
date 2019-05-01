@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cn.mallcloud.common.redis.MallcloudRedisAutoConfigure,\
-cn.mallcloud.common.redis.limit.config.RedisLimitAutoConfigurer
