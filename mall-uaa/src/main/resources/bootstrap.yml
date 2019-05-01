@@ -20,6 +20,6 @@ spring:
 
 encrypt:
   key-store:
-    location: classpath:mall.jks
-    secret: mall!@#$
-    alias: mall
+    location: classpath:zlt.jks
+    secret: zlt!@#$
+    alias: zlt

@@ -26,3 +26,15 @@ mall:
         second: 600
       - key: user
         second: 1800
+aliyun:
+    oss:
+        accessKeyId: 5Jii89BFukxmun5j
+        accessKeySecret: JvE9FcILlHu5gClmAJr89ZkEv00l9s
+        bucketName: yjlive160322
+        callback: http://localhost:8080/aliyun/oss/callback
+        dir:
+            prefix: mall/images/
+        endpoint: oss-cn-beijing.aliyuncs.com
+        maxSize: 10
+        policy:
+            expire: 300

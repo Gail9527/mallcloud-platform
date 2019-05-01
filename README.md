@@ -1,6 +1,7 @@
 # mallcloud-platform
 
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)<a href='https://gitee.com/mall2000/microservices-platform'><img src='https://gitee.com/mall2000/microservices-platform/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a><a href='https://gitee.com/mall2000/microservices-platform/stargazers'><img src='https://gitee.com/mall2000/microservices-platform/badge/star.svg?theme=dark' alt='star'></img></a>
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)]
+(https://www.apache.org/licenses/LICENSE-2.0.html)<a href='https://gitee.com/catshen/mallcloud-platform'><img src='https://gitee.com/catshen/mallcloud-platform/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a><a href='https://gitee.com/catshen/mallcloud-platform/stargazers'><img src='https://gitee.com/catshen/mallcloud-platform/badge/star.svg?theme=dark' alt='star'></img></a>
 
 ## 如果您觉得有帮助，请点右上角 "Star" 支持一下谢谢
 
@@ -20,7 +21,7 @@
   * 任务管理账号密码：admin/123456
 * **演示环境有全方位的监控示例：日志系统 + APM系统 + GPE系统**
 
-* Gitee地址：https://gitee.com/mall2000/microservices-platform
+* Gitee地址：https://gitee.com/catshen/mallcloud-platform
 * Github地址：https://github.com/shenzhuan/mallcloud
 
 * 前后端分离的企业级微服务架构
