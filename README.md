@@ -10,6 +10,7 @@
 ## 1. 项目介绍
 
 * **技术交流群** [195405248]
+* **详细在线文档** [点击查看](https://github.com/shenzhuan/mallcloud-platform/wiki/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2)
 * **演示地址**
   * url： [http://www.yjlive.cn:8090/#/login](http://www.yjlive.cn:8090/#/login)
   * 账号密码：admin/admin
