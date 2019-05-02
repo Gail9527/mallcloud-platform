@@ -32,7 +32,8 @@
 * 引入组件化的思想实现高内聚低耦合，项目代码简洁注释丰富上手容易
 * 注重代码规范，严格控制包依赖，每个工程基本都是最小依赖
 * 非常适合学习和企业中使用
-> cloud框架和组件来源：https://gitee.com/zlt2000/microservices-platform
+> cloud框架和组件来源：https://gitee.com/owenwangwen/open-capacity-platform
+ https://gitee.com/zlt2000/microservices-platform
 > 业务逻辑来源：https://github.com/shenzhuan/mallplus
 
 &nbsp;
